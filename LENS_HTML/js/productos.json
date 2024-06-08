@@ -1,0 +1,57 @@
+[
+    {
+        "id": "LAUROL-01-NEGRO",
+        "titulo": "Oversize | NEGRA",
+        "imagen": "./img/LAUROL-01/img_carrito/01.jpg",
+        
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-CAFECLARO",
+        "titulo": "Oversize | CAFE CLARO",
+        "imagen": "./img/LAUROL-01/img_carrito/02.jpg",
+      
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-MARRON",
+        "titulo": "Oversize | MARRON",
+        "imagen": "./img/LAUROL-01/img_carrito/03.jpg",
+        
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-VERDE",
+        "titulo": "Oversize | VERDE",
+        "imagen": "./img/LAUROL-01/img_carrito/04.jpg",
+       
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-GRIS",
+        "titulo": "Oversize | GRIS",
+        "imagen": "./img/LAUROL-01/img_carrito/05.jpg",
+        
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-CAFE",
+        "titulo": "Oversize | CAFE",
+        "imagen": "./img/LAUROL-01/img_carrito/06.jpg",
+       
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-BEIGE",
+        "titulo": "Oversize | BEIGE",
+        "imagen": "./img/LAUROL-01/img_carrito/07.jpg",
+       
+        "precio": 69900
+    },
+    {
+        "id": "LAUROL-01-AZUL",
+        "titulo": "Oversize | AZUL",
+        "imagen": "./img/LAUROL-01/img_carrito/08.jpg",
+        
+        "precio": 69900
+    }]

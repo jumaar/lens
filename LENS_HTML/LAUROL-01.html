@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAUROL-01</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./img/LENS.png">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <div class="logo"> 
+                <a href="./index.html">
+                    <img src="./img/LENS.png" alt="logo"></a>
+            </div>
+            
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <div class="logo"> 
+                    <img src="./img/LENS.png" alt="logo">
+                    
+        
+                </div>
+               
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./index.html">
+                        <button class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> COLECCIONES</button></a>
+                    </li>
+                    <li> <a href="./puntos_venta.html">
+                        <button  class="boton-menu boton-categoria" ><i class="bi bi-hand-index-thumb"></i> PUNTOS DE VENTA</button></a>
+                    </li>
+                   
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer class="texto-footer">
+                <a href="https://wa.me/573014310745" target="_blank"><h4>Contacto <br>+57 3014310745</h4></a><br>
+                
+                <h4>lenstextil@gmail.com</h4> <br>
+                <p >© 2024 lenstextil</p>
+            </footer>
+        </aside>
+
+        <main > 
+                  
+            <div class="slide ">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="./img/LAUROL-01/3colores_basemadera.jpeg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="./img/LAUROL-01/8colores_circulo.jpeg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="./img/LAUROL-01/lateral_3colores_claros.jpeg">
+                    </div>
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            <h2 class="titulo-principal" id="titulo-principal">LAUROL-01</h2>
+            </div>
+            
+            <div id="contenedor-productos" class="contenedor-productos ">
+                <!-- Esto se va a rellenar con JS -->
+                </div>
+                
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
