@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirigir todas las solicitudes a la URL base
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^(.*)$ / [L,R=301]
